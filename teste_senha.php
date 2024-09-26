@@ -1,5 +1,5 @@
 <?php
-    $senha = '1234';
+    $senha = '24112007';
 
     // $data = date("Ymd");
     // echo $data;
@@ -10,13 +10,6 @@
 
     echo $senha_cripto;
 
-    //81dc9bdb52d04dc20036dbd8313ed055
-
-    //81dc9bdb52d04dc20036dbd8313ed055
-
-
-
-
-
+    //Senha: 56200228ac5b4f6c7fc13310751ee270
 
 ?>
