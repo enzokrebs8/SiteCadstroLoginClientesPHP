@@ -12,6 +12,8 @@
     $registros = $resultado->num_rows;
     $resultado_usuario = mysqli_fetch_assoc($resultado);
     
+    //var_dump($resultado_usuario);
+
     if($registros == 1){
         $_SESSION['id'] = $resultado_usuario['id'];
         $_SESSION['nome'] = $resultado_usuario['nome'];
@@ -20,7 +22,8 @@
         header('Location: index.php');
 
     }
-    else{      
+    else{
+        //echo "NÃO ACHEI";        
         header('Location: ../index.html');
     }
 

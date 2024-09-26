@@ -1,5 +1,4 @@
 <?php
-    
     require('conecta.php');
 
     $nome = $_POST['nome'];
